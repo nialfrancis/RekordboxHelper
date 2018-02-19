@@ -17,10 +17,10 @@ You can see which iTunes tracks aren't in rekordbox as they aren't imported, but
 2. Dump the RekordboxHelper directory into your modules directory. Run ' $env:PSModulePath.Split(';')[0] ' to display it.
 3. If you use default directories you wont need to update anything in the script.  
 If not, update:
-  $iTunesLibraryDirectory = << YOUR ITUNES LIBRARY FOLDER >>
-  $RekordboxDirectory = << THE FOLDER YOU CHOOSE TO EXPORT YOUR REKORDBOX XML IN >>
-  $iTunesLibraryName = << YOUR ITUNES LIBRARY FILE NAME >>
-  $RekordboxFileName = << YOUR REKORDBOX XML FILE NAME >>
+  - $iTunesLibraryDirectory = << YOUR ITUNES LIBRARY FOLDER >>
+  - $RekordboxDirectory = << THE FOLDER YOU CHOOSE TO EXPORT YOUR REKORDBOX XML IN >>
+  - $iTunesLibraryName = << YOUR ITUNES LIBRARY FILE NAME >>
+  - $RekordboxFileName = << YOUR REKORDBOX XML FILE NAME >>
 4. In rekordbox, choose File > Export Collection in xml format
 
 ### Now You're Set
