@@ -21,7 +21,7 @@ If not, update:
   - $RekordboxDirectory = << THE FOLDER YOU CHOOSE TO EXPORT YOUR REKORDBOX XML IN >>
   - $iTunesLibraryName = << YOUR ITUNES LIBRARY FILE NAME >>
   - $RekordboxFileName = << YOUR REKORDBOX XML FILE NAME >>
-4. In rekordbox, choose File > Export Collection in xml format
+4. In rekordbox, choose File > Export Collection in xml format. Default location is 'My Documents\rekordbox.xml'.
 
 ### Now You're Set
 
